@@ -7,6 +7,7 @@ import {randomVideo} from "~/data/openaiVideo";
 import HeadInfo from "~/components/HeadInfo";
 import {useCommonContext} from "~/context/common-context";
 import {useInterval} from "ahooks";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const PageComponent = ({
                          locale = '',
